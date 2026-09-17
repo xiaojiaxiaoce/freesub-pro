@@ -5,15 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  server: 47.240.80.220
-  port: 2052
+  server: 176.32.35.44
+  port: 50111
   udp: true
-  type: trojan
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  sni: vpn.12169.top
-  skip-cert-verify: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 6b39ae3234dfd68b
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  server: 162.128.157.164
+  server: vj37-1936vtw.fincore.top
   port: 443
   udp: true
   type: vless
@@ -26,69 +25,22 @@ proxies:
   servername: www.bing.com
   client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
-  server: 202.146.222.174
-  port: 443
+  server: 47.240.80.220
+  port: 2052
   udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2
+  type: trojan
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  sni: vpn.12169.top
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2üá®üá≥
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
+  sni: https://t.me/clashv8
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  server: mz.hkychina.com
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: HysTeria2026!Proxy
-  sni: mz.hkychina.com
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  server: 43.159.4.80
-  port: 443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /episode/files?ed=2560fp=chrome
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
-  server: www.shopify.com
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: yoga-suggesting-recording-calls.trycloudflare.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
-    headers:
-      Host: yoga-suggesting-recording-calls.trycloudflare.com
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   server: 119.246.1.143
   port: 443
   udp: true
@@ -96,6 +48,45 @@ proxies:
   password: BxceQaOe
   sni: t.me
   skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2🇨🇳
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: "https://t.me/wangcai2ð\x9F\x87ð\x9F\x87"
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
+  server: mz.hkychina.com
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: HysTeria2026!Proxy
+  sni: mz.hkychina.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+  server: 104.16.60.10
+  port: 443
+  udp: true
+  type: vless
+  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
+  tls: true
+  servername: hk1.69lover.my
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /api/v2/e2fe4e52a165854d/stream
+    headers:
+      Host: hk1.69lover.my
 proxy-groups:
 - name: PROXIES
   type: select
