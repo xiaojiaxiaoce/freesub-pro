@@ -5,17 +5,14 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "103.31.4.10",
+      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe",
+      "server": "104.24.30.89",
       "server_port": 443,
-      "uuid": "77dc177b-79d9-49ac-92e1-2f1011faa5e3",
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
       "tls": {
         "enabled": true,
-        "server_name": "f871a986.69lover.site",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -23,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v2/b8ee4ba356df307c/stream",
+        "path": "/?ed=2560",
         "headers": {
-          "Host": "f871a986.69lover.site"
+          "Host": "rayan-007.nastaran.dpdns.org"
         }
       }
     },
@@ -34,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
