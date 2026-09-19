@@ -5,30 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 31.56.189.27
-  port: 2087
+  server: 104.143.223.231
+  port: 2085
   udp: true
   type: vless
-  uuid: df9f5aca-eda0-428f-a752-e53866153d12
-  tls: true
-  servername: srv-21bac9.vless.monster
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  uuid: 7b07d862-b698-47c1-884b-3e7dd6c8b862
   network: grpc
   grpc-opts:
-    grpc-service-name: freegrpc
+    grpc-service-name: vless
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   server: 31.58.181.88
   port: 8443
   udp: true
   type: vless
-  uuid: d0da19f1-fb05-488e-99c2-262389b3537b
+  uuid: 4a64b0c2-de7e-4e32-b931-247be6dc4488
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
   servername: tradingview.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   server: 130.49.161.70
   port: 443
@@ -40,7 +36,7 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  server: 85.204.107.174
+  server: 85.204.107.171
   port: 8080
   udp: true
   type: hysteria2
@@ -56,8 +52,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
