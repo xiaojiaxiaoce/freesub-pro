@@ -5,18 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: 138.2.59.96
-  port: 10129
+  server: 206.251.53.91
+  port: 8443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
   servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /movie/help/events?ed=2560
+    path: /settings?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
