@@ -26,20 +26,21 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
-  server: 172.105.169.70
+  server: 152.67.115.203
   port: 443
   udp: true
-  type: vless
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  tls: true
-  servername: 172.105.169.70
+  type: hysteria2
+  password: 633bc3be486b646190661ac2387c150a
+  sni: www.bing.com
   skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
 - name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   server: au1.gsafevpnapi.com
   port: 20270
   udp: true
   type: vless
-  uuid: 38b8e2fb-b9a0-40a6-b42c-335def2765cf
+  uuid: 6eef3a79-22bc-4086-b5e6-95e07db73016
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
