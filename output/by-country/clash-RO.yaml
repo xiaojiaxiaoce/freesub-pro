@@ -13,14 +13,6 @@ proxies:
   sni: hop-germany-september.dynuddns.com
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
-  server: 77.74.123.99
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  sni: grape-test-italy.dynuddns.net
-  skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
   server: 162.249.125.133
   port: 443
   udp: true
@@ -30,15 +22,15 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
-  server: 85.204.107.184
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
+  server: 77.74.123.98
   port: 8443
   udp: true
   type: hysteria2
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  sni: hopp-romania-new.roxa.org
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  sni: grape-test-italy.dynuddns.net
   skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
   server: 46.28.67.55
   port: 443
   udp: true
@@ -50,18 +42,16 @@ proxies:
     public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 06 - xiaohe
-  server: hy2.aspidnet.xyz
+  client-fingerprint: firefox
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
+  server: 38.180.35.145
   port: 443
   udp: true
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
+  type: trojan
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  sni: bu2.freeguard.org
   skip-cert-verify: false
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇷🇴 罗马尼亚 (Romania) 07 - xiaohe
+- name: 🇷🇴 罗马尼亚 (Romania) 06 - xiaohe
   server: 146.70.124.85
   port: 443
   udp: true
@@ -73,16 +63,18 @@ proxies:
     public-key: byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE
     short-id: fe24f8a0a560056e
   servername: www.datadoghq.com
-  client-fingerprint: firefox
-- name: 🇷🇴 罗马尼亚 (Romania) 08 - xiaohe
-  server: 185.156.44.99
+  client-fingerprint: random
+- name: 🇷🇴 罗马尼亚 (Romania) 07 - xiaohe
+  server: hy2-new.aspidnet.xyz
   port: 443
   udp: true
   type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: 185.156.44.99
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
   skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 09 - xiaohe
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇷🇴 罗马尼亚 (Romania) 08 - xiaohe
   server: 193.163.203.253
   port: 443
   udp: true
@@ -94,7 +86,15 @@ proxies:
     public-key: gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk
     short-id: 5ee019e02e6ed99a
   servername: yandex.ru
-  client-fingerprint: chrome
+  client-fingerprint: firefox
+- name: 🇷🇴 罗马尼亚 (Romania) 09 - xiaohe
+  server: 185.156.44.99
+  port: 443
+  udp: true
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: 185.156.44.99
+  skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 10 - xiaohe
   server: 154.46.31.106
   port: 443
