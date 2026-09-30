@@ -6,6 +6,17 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+      "server": "93.190.9.33",
+      "server_port": 3090,
+      "uuid": "60f70a3c-6d58-4929-9b64-6bdf38eb5c95",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
       "server": "85.192.48.142",
       "server_port": 443,
       "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
@@ -26,7 +37,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
       "server": "78.135.73.47",
       "server_port": 443,
       "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
@@ -44,13 +55,6 @@
           "short_id": "f46cd3ea3d1eb72d"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "server": "206.1.99.60",
-      "server_port": 19101,
-      "uuid": "2b8527d1-b4ab-4d3b-9863-409058552fec"
     },
     {
       "type": "vless",
@@ -75,38 +79,9 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
-      "server": "19990ed1bb252449.IROnlY4l.Ir",
-      "server_port": 443,
-      "uuid": "bc4c0c9f-ab46-4f2c-8305-ab8b3d019fd7",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage-p2.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pLbqDSeEe7biTe6b-w6SOLl2SiRxIBjHMfqUzuRR3Ew",
-          "short_id": "37d86205006fe1fb"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
-      "server": "me17.msjia8844.site",
-      "server_port": 7443,
-      "password": "M8LP9DztTr3znqCkmf-r08CQLBLLFK1r",
-      "tls": {
-        "enabled": true,
-        "server_name": "me17.msjia8844.site",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "u3Soh9_Ui0UmcuY6vk0ug8Lq"
-      }
+      "server": "178.83.46.216",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "selector",
@@ -117,8 +92,7 @@
         "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 06 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 05 - xiaohe"
       ]
     },
     {
@@ -129,8 +103,7 @@
         "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 06 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
