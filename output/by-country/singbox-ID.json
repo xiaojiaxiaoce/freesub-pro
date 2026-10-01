@@ -46,21 +46,17 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-      "tls": {
-        "enabled": true,
-        "server_name": "id1.nathaya.web.id",
-        "insecure": false
-      },
+      "server": "az-1.linkaa.xyz",
+      "server_port": 55386,
+      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
+      "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/trojan",
+        "path": "/game/resources",
         "headers": {
-          "Host": "id1.nathaya.web.id"
+          "Host": "az-1.linkaa.xyz"
         }
       }
     },
