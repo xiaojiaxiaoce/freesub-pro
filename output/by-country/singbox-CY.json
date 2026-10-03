@@ -35,7 +35,7 @@
         "server_name": "cdn.bulkavpn.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
